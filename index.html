@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/6fd4929dce.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+	<title>The Secret of Personal</title>
+</head>
+<body id="body">
+	<header>
+		<div class="circle-container">
+			<div class="circle">
+				<button id="openBtn"><i class="fa-solid fa-bars"></i></button>
+				<button id="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+			</div>
+		</div>
+		<div id="searchContainer" class="search">
+			<input id="searchInput" class="search-input" type="text">
+			<button id="searchBtn" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+		</div>
+	</header>
+
+	<main>
+		<div class="panel active">
+			<i class="fa-solid fa-chalkboard-user"></i>
+			<h3>Study Adventures</h3>
+		</div>
+		<div class="panel">
+			<i class="fa-solid fa-ghost"></i>
+			<h3>The Hidden Mystery behind Ghosts</h3>
+		</div>
+		<div class="panel">
+			<i class="fa-solid fa-chess"></i>
+			<h3>13 Myths About Chess</h3>
+		</div>
+		<div class="panel">
+			<i class="fa-solid fa-fire"></i>
+			<h3>Find your Fire</h3>
+		</div>
+		<div class="progress-container">
+			<div class="progress" id="progress"></div>
+			<div class="progress-circle active">1</div>
+			<div class="progress-circle">2</div>
+			<div class="progress-circle">3</div>
+			<div class="progress-circle">4</div>
+		</div>
+		<div class="btn-container">
+			<button class="btn" id="prevBtn" disabled="true"><i class="fa-solid fa-arrow-left-long"></i></button>
+			<button class="btn" id="nextBtn"><i class="fa-solid fa-arrow-right-long"></i></button>
+		</div>
+	</main>
+
+	<nav>
+		<ul>
+			<li><i class="fa-solid fa-house"></i> <a href="#">Home</a></li>
+			<li><i class="fa-solid fa-circle-info"></i> <a href="#">About</a></li>
+			<li><i class="fa-solid fa-envelope"></i> <a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+	<section class="rotation-screen">
+		<i class="fa-solid fa-rotate"></i>
+		<p>Rotate the device</p>
+	</section>
+
+	<script src="script.js"></script>
+</body>
+</html>
